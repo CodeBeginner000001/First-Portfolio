@@ -1,0 +1,22 @@
+Using vite for our project that is portfolio
+1. npm create vite@latest ./ -- --template react
+
+Using Tailwind Css and installing through tailwind CLI
+1. npm install -D tailwindcss
+2. npx tailwindcss init
+
+packages that are being used
+
+1. --legacy-peer-deps  -> used when using older packages
+2. @react-three/fiber @react-three/drei  -> used for write threejs in react fashion
+3. maath               -> used for math utility functions
+4. react-tilt          -> used for react animation when hovering over cards
+5. react-vertical-timeline-component  -> used for experiences timeline like a roadmap
+6. @emailjs/browser    -> used for sending mail through browser
+7. framer-motion      -> for cool animations in react
+8. react-router-dom    -> usd for routering system
+
+command line 
+ 
+npm i --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component 
+   @emailjs/browser framer-motion react-router-dom.
