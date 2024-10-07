@@ -2,7 +2,7 @@ Using vite for our project that is portfolio
 1. npm create vite@latest ./ -- --template react
 
 Using Tailwind Css and installing through tailwind CLI
-1. npm install -D tailwindcss
+1. npm install -D tailwindcss postcss autoprefixer (css won't apply if postcss autoprefixer is not added to command line)
 2. npx tailwindcss init
 
 packages that are being used
@@ -15,8 +15,14 @@ packages that are being used
 6. @emailjs/browser    -> used for sending mail through browser
 7. framer-motion      -> for cool animations in react
 8. react-router-dom    -> usd for routering system
+9. three               -> threejs package
 
 command line 
  
 npm i --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component 
-   @emailjs/browser framer-motion react-router-dom.
+   @emailjs/browser framer-motion react-router-dom three
+
+What i have learnt 
+-> used useGLTF for 3d model from @react-three/drei
+-> Used Suspense from react for the loader
+-> OrbitControls from react-three/drei allows us to move the model left and right
