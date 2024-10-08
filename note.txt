@@ -23,6 +23,19 @@ npm i --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt r
    @emailjs/browser framer-motion react-router-dom three
 
 What i have learnt 
--> used useGLTF for 3d model from @react-three/drei
+-> used useGLTF for 3d model to load and get stored in computer from @react-three/drei
 -> Used Suspense from react for the loader
 -> OrbitControls from react-three/drei allows us to move the model left and right
+-> used primitive tag to show the 3d in the Canvas
+-> in primitive scale is used to adjust the size 
+where as the position is used to set the position of the 3d model and 
+rotation is used to rotate the model upto certain axis
+-> the primitive tag works when array of x,y,z is set for scale,position,rotation
+-> Canvas tag is used to display the model on html page where
+camera position and field of view is set
+
+-> gl is used in canvas from react-three/fiber
+
+
+
+
