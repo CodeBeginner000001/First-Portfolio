@@ -1,4 +1,4 @@
-# Portfolio Project
+# First-Portfolio Project
 <p align="center">
   <img width="1440" alt="Screenshot 2024-10-10 at 3 38 32 AM" src="https://github.com/user-attachments/assets/2267bbe2-a262-41e9-83b2-0bdb1dbbe55a">
 </p>
@@ -13,6 +13,7 @@ This portfolio showcases my first-ever project, demonstrating 3D visuals, user i
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
 - [Project Details](#project-details)
+- [Final View](#final-view)
 - [How It Works](#how-it-works)
 - [Learning Resources](#learning-resources)
 
@@ -29,7 +30,7 @@ This portfolio is a personal project designed to showcase my development skills 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/CodeBeginner000001/First-Portfolio.git
    ```
 
 2. Install dependencies:
@@ -128,6 +129,12 @@ All the data in this project is managed through JavaScript files. Information su
 - **Animations**: Used **Framer Motion** for adding dynamic animations to key sections of the portfolio. Hover effects on cards are managed using **react-tilt**.
 - **Timeline**: Created using **react-vertical-timeline-component** for showcasing a chronological view of my professional and educational journey.
 - **Email Functionality**: Users can send messages directly from the portfolio using the **EmailJS** integration, with configuration stored in the **.env** file.
+
+## Final View
+<p align="center">
+  <img width="1419" alt="Screenshot 2024-10-10 at 3 42 59 AM" src="https://github.com/user-attachments/assets/3ba6ac4c-9c22-400a-9acc-288b41f6f09d">
+  <img width="1440" alt="Screenshot 2024-10-10 at 3 43 21 AM" src="https://github.com/user-attachments/assets/d7c373dc-9d55-4e44-b8b5-e7fbd4a188e1">
+</p>
 
 ## How It Works
 
