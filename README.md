@@ -133,7 +133,16 @@ All the data in this project is managed through JavaScript files. Information su
 ## Final View
 <p align="center">
   <img width="1419" alt="Screenshot 2024-10-10 at 3 42 59 AM" src="https://github.com/user-attachments/assets/3ba6ac4c-9c22-400a-9acc-288b41f6f09d">
+  <hr>
   <img width="1440" alt="Screenshot 2024-10-10 at 3 43 21 AM" src="https://github.com/user-attachments/assets/d7c373dc-9d55-4e44-b8b5-e7fbd4a188e1">
+  <hr>
+  <img width="1440" alt="Screenshot 2024-10-10 at 3 43 32 AM" src="https://github.com/user-attachments/assets/aa5277dd-7715-41c1-b23e-ffcc6ccbe050">
+  <hr>
+  <img width="1435" alt="Screenshot 2024-10-10 at 3 43 49 AM" src="https://github.com/user-attachments/assets/f1dfdc49-c1ad-49ba-be65-68ca116c3f58">
+  <hr>
+  <img width="1440" alt="Screenshot 2024-10-10 at 3 44 03 AM" src="https://github.com/user-attachments/assets/5030413e-95e7-4281-ba17-0b58a2291a8c">
+  <hr>
+  <img width="1439" alt="Screenshot 2024-10-10 at 3 44 19 AM" src="https://github.com/user-attachments/assets/bb5c1f18-ee7b-42fd-8bcb-bcc4e5294b9e">
 </p>
 
 ## How It Works
