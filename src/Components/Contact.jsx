@@ -25,14 +25,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send('service_b977bca','template_yee8837',
+    emailjs.send(import.meta.env.VITE_EMAILJS_USERID,import.meta.env.VITE_EMAILJS_TEMPLATEID,
     {
       from_name: form.name,
       to_name: "Adarsh",
       from_email: form.email,
       to_email: 'ashu2100ag@gmail.com',
       message: form.message,
-    },'bWpMdmjDFczQcqIMh')
+    },import.meta.env.VITE_EMAILJS_RECEIVERID)
     .then(()=>{
       setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.")
