@@ -1,0 +1,21 @@
+testimonial:
+"He had been a key contributor to our success, consistently demonstrating exceptional technical expertise in electronics, solving complex challenges, and enhancing our product offerings with his innovative solutions and teamwork.",
+name: "Rishikesh Ranjan",
+designation: "Founder",
+company: "ElecTrade",
+image: rishikesh,
+---------------------------------->    <------------------------------------------
+testimonial:
+"He is hard working, vibrant and intelligent student and a good learner who is keen to learn new skills always",
+name: "Dr. Sudesh Pahal",
+designation: "Associate professor",
+company: "MSIT",
+image: sudesh,
+---------------------------------->    <------------------------------------------
+testimonial:
+"I highly recommend him for his exceptional dedication, creativity, critical thinking, strong work ethic, and passion for learning, making him an excellent candidate for any academic or professional opportunity.",
+name: "Dr. Priyanka Nandal",
+designation: "Associate Professor",
+company: "MSIT",
+image: priyanka,
+---------------------------------->    <------------------------------------------
