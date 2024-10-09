@@ -15,7 +15,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915eff]'>Adarsh
             </span></h1>
             <p>
-              I develop 3D Visuals, User Interfaces, <br className='sm:block hidden' /> Web Application and Arduino Projects
+            Crafting 3D Visuals, Interactive UI, <br className='sm:block hidden' /> Web Solutions, and Arduino Magic!
             </p>
         </div>
       </div>
