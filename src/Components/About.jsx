@@ -2,7 +2,7 @@ import React from 'react'
 import {Tilt} from "react-tilt"
 import {motion} from 'framer-motion'
 import {styles} from "../style.js"
-import {services} from "../constants/index.js"
+import {services,aboutPara} from "../constants/index.js"
 import {fadeIn, textVariant} from "../utils/motion.js"
 import {SectionWrapper} from "../hoc/index.js"
 const ServiceCard = ({index,title,icon})=>{
@@ -17,7 +17,7 @@ const ServiceCard = ({index,title,icon})=>{
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
-          <img src={icon} alt={title} className='w-16 h-16 object-contain' />
+          <img src={icon} alt={title} className={`h-[90px] object-contain`} />
           <h3 className='text-white text-[16px] font-bold text-center'>{title}</h3>
         </div>
       </motion.div>
@@ -33,10 +33,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with experience in Javascript, and expertise in frameworks
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solution that solve real world problems.
-        Let's work together to bring your ideas to life!
+        {aboutPara.about}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

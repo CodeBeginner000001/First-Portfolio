@@ -2,12 +2,12 @@ import React from 'react'
 import {Tilt} from "react-tilt";
 import {motion} from "framer-motion"
 import {styles} from "../style";
-import {github} from "../assets";
+import {github,linklogo} from "../assets";
 import {SectionWrapper} from "../hoc"
 import {projects} from "../constants"
 import {fadeIn,textVariant } from '../utils/motion';
 
-const ProjectCard = ({index,name,description,tags,image,source_code_Link})=>{
+const ProjectCard = ({index,name,description,tags,image,source_code_link,link})=>{
   return (
     <motion.div
     variants={fadeIn("up","spring",index*0.5,0.75)}
@@ -22,18 +22,23 @@ const ProjectCard = ({index,name,description,tags,image,source_code_Link})=>{
       >
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover '>
-            <div onClick={()=> window.open(source_code_Link,"_blank")}
-            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+          <div className='absolute inset-0 flex flex-col justify-start m-3 card-img_hover items-end'>
+            <div onClick={()=> window.open(source_code_link,"_blank")}
+            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mb-2'
             >
               <img src={github} alt="github" className='object-contain h-6 w-6 ' />
+            </div>
+            <div onClick={()=> window.open(link,"_blank")}
+            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img src={linklogo} alt="link_logo" className='object-cover h-11 ' />
             </div>
           </div>
         </div>
 
         <div>
           <h3 className='text-white font-bold text-[24px] mt-3'>{name}</h3>
-          <p className='text-[14px] mt-2 text-secondary'>{description}</p>
+          <p className='text-[14px] mt-2 text-secondary'>{description.length>200?description.slice(0,240)+" ...":description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

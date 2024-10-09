@@ -1,62 +1,100 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+// site logo
+import logo from "./logo.jpg";
+// About Logos
+import backend from "./About_Logos/backend.png";
+import cpp from "./About_Logos/c++.png";
+import hardware from "./About_Logos/hardware.png";
+import pcb from "./About_Logos/pcb.png"
+import arduino from "./About_Logos/arduino.png"
+import web from "./About_Logos/web.png";
+// Navbar logos
+import menu from "./Navbar_Logo/menu.svg";
+import close from "./Navbar_Logo/close.svg";
+import linkedin from "./linkedin.png"
+// Company logos
+import hnhcart from "./Company_Logos/hnhcart.png";
+import ieeemsit from "./Company_Logos/ieeemsit.png";
+// Tech logos
+import css from "./Tech_Logos/css.png";
+import git from "./Tech_Logos/git.png";
+import arduinoide from "./Tech_Logos/arduino.png"
+import html from "./Tech_Logos/html.png";
+import bootstrap from "./Tech_Logos/bootstrap.png"
+import javascript from "./Tech_Logos/javascript.png";
+import cpplus from "./Tech_Logos/c++.png"
+import mongodb from "./Tech_Logos/mongodb.png";
+import nodejs from "./Tech_Logos/nodejs.png";
+import reactjs from "./Tech_Logos/reactjs.png";
+import redux from "./Tech_Logos/redux.png";
+import tailwind from "./Tech_Logos/tailwind.png";
+import threejs from "./Tech_Logos/threejs.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+//Project logos
+import github from "./Project_Logos/github.png";
+import linklogo from "./Project_Logos/linklogo.png"
+import cryptoverse from "./Project_Logos/Cryptoverse.png"
+import fitnessclub from "./Project_Logos/FitnessClub.png"
+import nodejsblog from "./Project_Logos/NodejsBlog.png"
+import pokemonslider from "./Project_Logos/PokemonSlider.png"
+import simonsays from "./Project_Logos/SimonSays.png"
+import textutils from "./Project_Logos/TextUtils.png"
+import virtualr from "./Project_Logos/VirtualR.png"
+import weatherapp from "./Project_Logos/WeatherApp.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// Testimonials
+import priyanka from "./Feedback_Logos/Priyanka.jpg"
+import rishikesh from "./Feedback_Logos/Rishikesh.png"
+import sudesh from "./Feedback_Logos/Sudesh.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
+  // site logo
   logo,
+  linkedin,
+  // About logos
   backend,
-  creator,
-  mobile,
+  cpp,
+  hardware,
+  pcb,
+  arduino,
   web,
-  github,
+  // Navbar logos
   menu,
   close,
+  // company logos
+  hnhcart,
+  ieeemsit,
+
+  // Tech Logos
   css,
-  docker,
-  figma,
+  arduinoide,
   git,
   html,
+  bootstrap,
   javascript,
   mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  cpplus,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+
+  // Project logo
+  github,
+  linklogo,
+  cryptoverse,
+  fitnessclub,
+  nodejsblog,
+  pokemonslider,
+  simonsays,
+  textutils,
+  virtualr,
+  weatherapp,
+
+  // Testimonals 
+  priyanka,
+  rishikesh,
+  sudesh,
 };

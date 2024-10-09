@@ -1,0 +1,34 @@
+title: "Junior Technician",
+company_name: "HatchnHack Cart",
+icon: hnhcart,
+iconBg: "#E6DEDD",
+date: "April 2021 - June 2023",
+points:[
+        "Developed and assembled DIY kits for the company, enhancing product offerings.",
+        "Managed content creation for social media platforms, driving engagement and outreach.",
+        "Designed, tested, and debugged electronic components, and created Bills of Materials (BOM) for both power and low-voltage components.",
+      ],
+---------------------->    <-------------------------------------------------
+title: "Project Development Intern",
+company_name: "HatchnHack Cart",
+icon: hnhcart,
+iconBg: "#E6DEDD",
+date: "June 2023 - August 2023",
+points:[
+        "Designed a Custom Variable Power Supply – Engineered and developed a versatile power supply for various electronic applications, allowing for adjustable voltage output.",
+        "Built a Secure Solenoid Door Lock System – Developed an access control system using an EM-18 RFID reader and a keypad, providing dual authentication for enhanced security.",
+        "Created a Maze-Solving Robot – Designed and programmed a robot capable of autonomously navigating and solving complex mazes using sensors and pathfinding algorithms.",
+      ],
+---------------------->    <-------------------------------------------------
+title: "Hardware Lead",
+company_name: "IEEE MSIT",
+icon: ieeemsit,
+iconBg: "#E6DEDD",
+date: "March 2023 - March 2024",
+points:[
+        "Conducted multiple webinars to share knowledge on electronics and project development, fostering learning and engagement among students.",
+        "Mentored four teams on distinct projects simultaneously, providing strategic direction and support throughout the project lifecycle.",
+        "Oversaw the successful completion and presentation of projects in college, showcasing student work and reinforcing practical skills.",
+        "Provided one-on-one mentorship sessions, assisting students in navigating the project development process and enhancing their technical proficiency.",
+      ],
+---------------------->    <-------------------------------------------------

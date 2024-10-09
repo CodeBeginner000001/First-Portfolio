@@ -1,28 +1,43 @@
 import {
-    mobile,
+  // About logos
+    hardware,
+    pcb,
+    arduino,
     backend,
-    creator,
+    cpp,
     web,
+    // company logos
+    hnhcart,
+    ieeemsit,
+    // Tech logo
     javascript,
-    typescript,
     html,
+    arduinoide,
+    bootstrap,
     css,
     reactjs,
+    cpplus,
     redux,
     tailwind,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    git,
+    // Project logo
+    cryptoverse,
+    fitnessclub,
+    nodejsblog,
+    pokemonslider,
+    simonsays,
+    textutils,
+    virtualr,
+    weatherapp,
+
+    // Testimonals 
+    priyanka,
+    rishikesh,
+    sudesh,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -46,17 +61,26 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "C++/C",
+      icon: cpp,
     },
+    {
+      title: "PCB Designer",
+      icon: pcb,
+    },
+    {
+      title: "Arduino Enthusiast",
+      icon: arduino,
+    },
+    {
+      title: "Hardware Developer",
+      icon: hardware,
+    },
+    
   ];
   
   const technologies = [
@@ -71,10 +95,6 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
     },
     {
       name: "React JS",
@@ -101,70 +121,59 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git/Github",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C/C++",
+      icon: cpplus,
+    },
+    {
+      name: "Arduino",
+      icon: arduinoide,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Junior Technician",
+      company_name: "HatchnHack Cart",
+      icon: hnhcart,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2021 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and assembled DIY kits for the company, enhancing product offerings.",
+        "Managed content creation for social media platforms, driving engagement and outreach.",
+        "Designed, tested, and debugged electronic components, and created Bills of Materials (BOM) for both power and low-voltage components.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Project Development Intern",
+      company_name: "HatchnHack Cart",
+      icon: hnhcart,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed a Custom Variable Power Supply – Engineered and developed a versatile power supply for various electronic applications, allowing for adjustable voltage output.",
+        "Built a Secure Solenoid Door Lock System – Developed an access control system using an EM-18 RFID reader and a keypad, providing dual authentication for enhanced security.",
+        "Created a Maze-Solving Robot – Designed and programmed a robot capable of autonomously navigating and solving complex mazes using sensors and pathfinding algorithms.",
+      ],
+    },
+    {
+      title: "Hardware Lead",
+      company_name: "IEEE MSIT",
+      icon: ieeemsit,
+      iconBg: "#E6DEDD",
+      date: "March 2023 - March 2024",
+      points: [
+        "Conducted multiple webinars to share knowledge on electronics and project development, fostering learning and engagement among students.",
+        "Mentored four teams on distinct projects simultaneously, providing strategic direction and support throughout the project lifecycle.",
+        "Oversaw the successful completion and presentation of projects in college, showcasing student work and reinforcing practical skills.",
+        "Provided one-on-one mentorship sessions, assisting students in navigating the project development process and enhancing their technical proficiency.",
       ],
     },
   ];
@@ -172,94 +181,219 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "He had been a key contributor to our success, consistently demonstrating exceptional technical expertise in electronics, solving complex challenges, and enhancing our product offerings with his innovative solutions and teamwork.",
+      name: "Rishikesh Ranjan",
+      designation: "Founder",
+      company: "ElecTrade",
+      image: rishikesh,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "He is hard working, vibrant and intelligent student and a good learner who is keen to learn new skills always",
+      name: "Dr. Sudesh Pahal",
+      designation: "Associate professor",
+      company: "MSIT",
+      image: sudesh,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I highly recommend him for his exceptional dedication, creativity, critical thinking, strong work ethic, and passion for learning, making him an excellent candidate for any academic or professional opportunity.",
+      name: "Dr. Priyanka Nandal",
+      designation: "Associate Professor",
+      company: "MSIT",
+      image: priyanka,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cryptoverse",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Cryptoverse is built with React.js and utilizes the Ant Design framework to create a responsive and user-friendly interface. The project integrates with external APIs, such as CoinRanking and Cryptocurrency News via RapidAPI, to fetch real-time data on cryptocurrencies.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Chart.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "AntDesign",
           color: "pink-text-gradient",
         },
+        {
+          name: "Rapidapi",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cryptoverse,
+      source_code_link: "https://github.com/CodeBeginner000001/Cryptoverse",
+      link: "https://cryptoverse-for-cryptocurrencies.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Fitness Club",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Fitness Club Website is a comprehensive platform designed to help users find and learn about various exercises. Users can search for exercises based on body parts, equipment, and target muscles. Additionally, users can select from exercise cards displayed below the search bar to get detailed information about each exercise, including how to perform it, its name, related YouTube videos, and similar exercises.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Rapidapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: fitnessclub,
+      source_code_link: "https://github.com/CodeBeginner000001/Fitness_Club",
+      link: "https://fitnessclub-yourexercise-gurukul.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "NodeJs Blog",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The NodeJs Blog platform is designed for simplicity and ease of use. It's perfect for anyone looking to set up a quick and efficient blog. The backend is built with Node.js and Express, with MongoDB handling data storage. EJS is used as the templating engine to render dynamic content on the frontend.",
       tags: [
         {
-          name: "nextjs",
+          name: "Nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Ejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: nodejsblog,
+      source_code_link: "https://github.com/CodeBeginner000001/NodeJs_Blog",
+      link: "https://nodejs-blog-4xqp.onrender.com/",
+    },
+    {
+      name: "VirtualR",
+      description:
+      "VirtualR is built to deliver a seamless and intuitive user experience by combining video content with a responsive design. Whether accessed on mobile devices or large screens, the application ensures a consistent and visually appealing presentation. The use of TailwindCSS and React allows for efficient styling and powerful component-based architecture, making the project both scalable and maintainable. React Vite enhances this setup with fast development and optimized builds.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LucideReact",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: virtualr,
+      source_code_link: "https://github.com/CodeBeginner000001/VirtualR",
+      link: "https://virtualr-vrapp.netlify.app/",
+    },
+    {
+      name: "TextUtils",
+      description:
+      "TextUtils is a React application that allows users to manipulate text in various ways. It provides functionality to convert text to uppercase and lowercase, copy text to the clipboard, remove extra spaces, preview the text, and switch between light and dark modes. The app also includes navigation between Home and About pages.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: textutils,
+      source_code_link: "https://github.com/CodeBeginner000001/TextUtils",
+      link: "https://textutils-edit-text.netlify.app/",
+    },
+    {
+      name: "Pokemon Slider",
+      description:
+      "The Pokémon Slider Website is a web application that allows users to view and interact with a slider showcasing various Pokémon. Built using HTML, CSS, and JavaScript, this website is designed to provide a visually appealing and interactive experience for Pokémon enthusiasts.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pokemonslider,
+      source_code_link: "https://github.com/CodeBeginner000001/Pokemon-Slider",
+      link: "https://codebeginner000001.github.io/Pokemon-Slider/",
+    },
+    {
+      name: "Simon Says Game",
+      description:
+      "The Simon Says Game challenges players to remember and repeat sequences of colors and sounds. This version of the game is implemented using HTML,CSS & Javascript, providing a fun and interactive way to test your memory skills.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: simonsays,
+      source_code_link: "https://github.com/CodeBeginner000001/Simon-Says-Game",
+      link: "https://codebeginner000001.github.io/Simon-Says-Game/",
+    },
+    {
+      name: "Weather App",
+      description:
+      "Weather App is a React application that allows users to get detailed weather information for their location. Users can enter their location to retrieve data such as temperature, humidity, max temperature, min temperature, feels-like temperature, weather conditions, wind speed, pressure, latitude, longitude, and an image depicting the current weather.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Weatherapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weatherapp,
+      source_code_link: "https://github.com/CodeBeginner000001/Weather-App",
+      link: "https://weather-checkweather-today.netlify.app/"
     },
   ];
+
+  const aboutPara = {
+    about:"I'm a skilled software developer with experience in Javascript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solution that solve real world problems.Let's work together to bring your ideas to life!"
+  }
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects,aboutPara };
