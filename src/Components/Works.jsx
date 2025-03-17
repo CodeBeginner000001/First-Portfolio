@@ -58,7 +58,10 @@ const Works = () => {
   return (
     <>
       <motion.div
-        variants={textVariant()}>
+        variants={textVariant()}
+initial="hidden" 
+  animate="show"
+>
         <p className={`${styles.sectionSubText} flex`}>
           My work
         </p>
