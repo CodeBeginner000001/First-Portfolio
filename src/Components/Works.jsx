@@ -10,7 +10,7 @@ import {fadeIn,textVariant } from '../utils/motion';
 const ProjectCard = ({index,name,description,tags,image,source_code_link,link})=>{
   return (
     <motion.div
-    variants={fadeIn("up","spring",index*0.5,0.75)}
+{/*     variants={fadeIn("up","spring",index*0.5,0.75)} */}
     >
       <Tilt
       options={{
@@ -57,11 +57,12 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,link})=
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>
+      <motion.div>
+{/*         variants={textVariant()} */}
+        <p className={`${styles.sectionSubText} flex`}>
           My work
         </p>
-        <h2 className={`${styles.sectionHeadText}`}>
+        <h2 className={`${styles.sectionHeadText} flex`}>
           Projects.
         </h2>
       </motion.div>
