@@ -32,6 +32,7 @@ const Contact = () => {
       from_email: form.email,
       to_email: 'ashu2100ag@gmail.com',
       message: form.message,
+      reply_to: form.email
     },import.meta.env.VITE_EMAILJS_RECEIVERID)
     .then(()=>{
       setLoading(false);
