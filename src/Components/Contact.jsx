@@ -14,7 +14,7 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: "",
     email: "",
-    message: " ",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -36,12 +36,12 @@ const Contact = () => {
     },import.meta.env.VITE_EMAILJS_RECEIVERID)
     .then(()=>{
       setLoading(false);
-      alert("Thank you. I will get back to you as soon as possible.")
       setForm({
         name:"",
         email:"",
         message:"",
       })
+      alert("Thank you. I will get back to you as soon as possible.")
     },(err)=>{
       setLoading(false)
       console.log(err);
